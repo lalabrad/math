@@ -8,9 +8,17 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var selectedTab = 1
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        TabView(selection: $selectedTab) {
+                TypeMath().tabItem { Image(systemName: "chart.bar").tag(1) }
+                PlusAndMinus()
+                        .tabItem { Image(systemName: "bitcoinsign.circle") }
+                        .tag(2)
+                    
+                }
+        
     }
 }
 
