@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203FD757266C53D9001D285B /* WhichIsBigger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203FD756266C53D9001D285B /* WhichIsBigger.swift */; };
 		20799683263F4E4000DA4D68 /* mathApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20799682263F4E4000DA4D68 /* mathApp.swift */; };
 		20799685263F4E4000DA4D68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20799684263F4E4000DA4D68 /* ContentView.swift */; };
 		20799687263F4E4200DA4D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20799686263F4E4200DA4D68 /* Assets.xcassets */; };
 		2079968A263F4E4200DA4D68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20799689263F4E4200DA4D68 /* Preview Assets.xcassets */; };
 		20B13A1A264C9AFA0031FE61 /* TypeMath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B13A19264C9AFA0031FE61 /* TypeMath.swift */; };
 		20B13A1D264C9BC40031FE61 /* PlusAndMinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20B13A1C264C9BC40031FE61 /* PlusAndMinus.swift */; };
+		20C35B4B266402D900D79095 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C35B4A266402D900D79095 /* ColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		203FD756266C53D9001D285B /* WhichIsBigger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhichIsBigger.swift; sourceTree = "<group>"; };
 		2079967F263F4E4000DA4D68 /* math.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = math.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20799682263F4E4000DA4D68 /* mathApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mathApp.swift; sourceTree = "<group>"; };
 		20799684263F4E4000DA4D68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		2079968B263F4E4200DA4D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20B13A19264C9AFA0031FE61 /* TypeMath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeMath.swift; sourceTree = "<group>"; };
 		20B13A1C264C9BC40031FE61 /* PlusAndMinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusAndMinus.swift; sourceTree = "<group>"; };
+		20C35B4A266402D900D79095 /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		203FD755266C53BC001D285B /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				203FD756266C53D9001D285B /* WhichIsBigger.swift */,
+			);
+			path = Four;
+			sourceTree = "<group>";
+		};
 		20799676263F4E4000DA4D68 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,8 @@
 		20799681263F4E4000DA4D68 /* math */ = {
 			isa = PBXGroup;
 			children = (
+				203FD755266C53BC001D285B /* Four */,
+				20C35B492664028E00D79095 /* third */,
 				20B13A1B264C9BAC0031FE61 /* Second */,
 				20B13A18264C9AC20031FE61 /* First */,
 				20799682263F4E4000DA4D68 /* mathApp.swift */,
@@ -89,6 +103,14 @@
 				20B13A1C264C9BC40031FE61 /* PlusAndMinus.swift */,
 			);
 			path = Second;
+			sourceTree = "<group>";
+		};
+		20C35B492664028E00D79095 /* third */ = {
+			isa = PBXGroup;
+			children = (
+				20C35B4A266402D900D79095 /* ColorPicker.swift */,
+			);
+			path = third;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,7 +183,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20B13A1D264C9BC40031FE61 /* PlusAndMinus.swift in Sources */,
+				203FD757266C53D9001D285B /* WhichIsBigger.swift in Sources */,
 				20799685263F4E4000DA4D68 /* ContentView.swift in Sources */,
+				20C35B4B266402D900D79095 /* ColorPicker.swift in Sources */,
 				20799683263F4E4000DA4D68 /* mathApp.swift in Sources */,
 				20B13A1A264C9AFA0031FE61 /* TypeMath.swift in Sources */,
 			);
